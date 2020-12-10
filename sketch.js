@@ -70,7 +70,7 @@ function setup() {
 function draw() {
   background("lightBlue");
   
-  
+  let display = touches.length + ' touches';
   
   bg.velocityX = -2;
 

@@ -134,7 +134,7 @@ function draw() {
     branchGroup.setLifetimeEach(-1);
     slimeGroup.setLifetimeEach(-1);
     
-    if(mousePressedOver(restart)) {
+    if(mousePressedOver(restart)|| touches.length > 0) {
       
         gameState = PLAY;
         score = 0;

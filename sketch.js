@@ -62,7 +62,7 @@ function setup() {
   branchGroup = new Group();
   slimeGroup = new Group();
   
-  bird.debug = true;
+  //bird.debug = true;
   bird.setCollider("circle", 50,5,80);
   
 }
@@ -188,7 +188,7 @@ function branchs(){
   branch.velocityX = -(6 + score/100);
   
   branch.setCollider("rectangle",0,100,2000,10);
-  branch.debug = true;
+  //branch.debug = true;
   
   branch.y = Math.round(random(windowHeight - (windowHeight - 100),windowHeight - 100));
   
@@ -204,7 +204,7 @@ function branchs(){
     slime.scale = 0.1;
     
     slime.setCollider("rectangle",0,0,1000,50);
-    slime.debug = true;
+    //slime.debug = true;
     
     slime.liftime = windowWidth/5;
     

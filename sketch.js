@@ -94,7 +94,7 @@ function draw() {
     
     if((touches.length > 0 || keyDown("SPACE"))) {
       
-        bird.velocityY = -50;
+        bird.velocityY = -10;
         touches = [];
       }
     
